@@ -11,7 +11,7 @@ The project contains the main script run_analysis.R which prepares a tidy datase
 
 * 'run_analysis.R': Contains the script code.
 
-* 'tidy_data_mean_std.txt': The tidy data set with the average of mean() and std() variables for each activity and each subject.
+* 'tidy_data': The tidy data set with the average of mean() and std() variables for each activity and each subject.
 
 ### How run script:
 1. Download a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work directory.
@@ -19,8 +19,8 @@ The project contains the main script run_analysis.R which prepares a tidy datase
 3. Open script in the RStudio or R application.
 4. Before to execute the script please install the 'dplyr' library.
 5. Run the script and wait few seconds to finish processing the data set.
-6. When Analysis FINISHed the data set directory contains the 'tidy_data_mean_std.txt' file.
-7. Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
+6. When analysis is finished, the data set directory contains the 'tidy_data' file.
+7. Read the file: tdms <- read.table("tidy_data.txt", header = TRUE, sep = "")
 
 ## Analysis does:
 1. Reads training and test dataset files.
