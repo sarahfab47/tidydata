@@ -2,7 +2,7 @@
                 
 The dataset is composed of 82 variables and 180 observations:
 
-The followng variables are:
+The following variables are:
 
 "subjectId" - Subject ID who performed the activity for each window sample. (1...30 ID number of person)       
                 
