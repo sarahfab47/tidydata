@@ -4,18 +4,9 @@ The dataset is composed of 82 variables and 180 observations:
 
 The followng variables are:
 
-"subjectId"       2
-        Subject ID who performed the activity for each window sample.
-                1...30 ID number of person.
+"subjectId" - Subject ID who performed the activity for each window sample. (1...30 ID number of person)       
                 
-"activityId"      18
-        Activity label which performed by one person.
-                WALKING
-                WALKING_UPSTAIRS
-                WALKING_DOWNSTAIRS
-                SITTING
-                STANDING
-                LAYING
+"activityId" -  Activity label which performed by one person.
 
 * "tBodyAcc-mean()-X" "tbodyaccmeanx"
 * "tBodyAcc-mean()-Y" "tbodyaccmeany"
