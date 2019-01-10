@@ -1,10 +1,10 @@
-##Background:
+## Background:
 
 Human Activity Recognition Using Smartphones Dataset
 
 The project contains the main script run_analysis.R which prepares a tidy dataset from Human Activity Recognition Using Smartphones Dataset.
 
-##The dataset includes the following files:
+## The dataset includes the following files:
 'README.md': Explains how all of the script works and which a raw data it uses.
 
 'CodeBook.md': Describes the variables, the data, and any transformations or work that script performed to clean up the data.
@@ -13,7 +13,7 @@ The project contains the main script run_analysis.R which prepares a tidy datase
 
 'tidy_data_mean_std.txt': The tidy data set with the average of mean() and std() variables for each activity and each subject.
 
-###How run script:
+### How run script:
 Download a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the work directory.
 Copy the 'run_analysis.R' script to the 'UCI HAR Dataset' directory.
 Open script in the RStudio or R application.
@@ -23,7 +23,7 @@ When Analysis FINISHed the data set directory contains the 'tidy_data_mean_std.t
 Read the file: tdms <- read.table("tidy_data_mean_std.txt", header = TRUE, sep = "")
 Now you can analysis tdms data.
 
-##Analysis does:
+## Analysis does:
 Reads training and test dataset files.
 Merges the training and the test sets to create one data set.
 Reads features and activity labels files.
